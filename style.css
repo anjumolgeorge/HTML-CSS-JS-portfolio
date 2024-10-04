@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.color{
+    background: rgba(13, 2, 43, 0.663);
+    color: rgb(20, 11, 9);
+    height: 4rem;
+    position: relative;
+    cursor:e-resize;
+
+}
+.outer{
+    display: flex; 
+    height: 100vh; 
+}
+.sub{
+    background: rgba(13, 2, 43, 0.914); 
+    width: 50%; 
+    height: 100%;
+}
+.text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.innerDiv{
+    margin-top: 140px;
+    margin-left: 160px;
+    color: beige;
+    font-family:cursive
+}
+.button{
+    width: 100px;
+    height: 60px; 
+    margin-left: 200px; 
+    border-top-right-radius: 30px; 
+    cursor: pointer; 
+    color:rgb(8, 2, 46); 
+    background: rgb(117, 51, 51);
+}
+.imgDiv{
+    background: rgba(13, 2, 43, 0.914); 
+    width: 50%; 
+    height: 100%;
+}
+.first{
+    width: 300px;
+    height:300px; 
+    margin-top: 70px; 
+    border-radius:100%; 
+    margin-left: 100px
+}
+.second{
+    width: 300px; 
+    height:300px; 
+    border-radius:100%; 
+    margin-left: 200px;
+    margin-top: -170px;
+}
+.dis{
+    padding: 1rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 10px 20px;
+    margin-right: 20px ;
+}
+.Section{
+  background: black;
+  height: 730px;
+}
+.about{
+    width: 80%;
+    height: 570px;
+    background: rgb(2, 82, 119);
+    margin-left: 150px;
+    
+}
+.textcolor{
+    color:beige;
+    text-align: center;
+    font-weight:bolder;
+}
+.abouttext{
+    margin-top: -250px;
+    margin-left: 430px;
+    color:beige;
+    font-family:sans-serif;
+}
+.skill{
+    width: 90%;
+    height: 570px;
+    background: rgb(2, 82, 119);
+    margin-left: 70px;
+}
+.imgsecond{
+    width: 300px;
+    height:300px; 
+    border-radius:100%; 
+    margin-left: 520px;
+    margin-top:-300px;
+}
+.imgthird{
+    width: 300px;
+    height:300px; 
+    border-radius:100%; 
+    margin-left: 930px;
+    margin-top: -250px;
+}
+.developer{
+    margin-left: 12rem;
+}
+.project{
+    width: 300px;
+    height:300px; 
+    border-radius:100%; 
+    margin-top: 20rem;
+    margin-left: 6.5rem;
+}
+.todo{
+    width: 300px;
+    height:300px; 
+    border-radius:100%; 
+    margin-top:60px;
+    margin-left: 90px;
+}
+.text1{
+    color: beige;
+   margin-left: 41rem;
+}
