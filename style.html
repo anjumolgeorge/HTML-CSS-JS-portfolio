@@ -3,87 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-    <div>
-<div class="color">
-<nav>
-    <h2 class="dis">logo</h2>
-    <ul >
-        <li><b>HOME</b></li>
-        <li><b>ABOUT</b></li>
-        <li><b>SKILL</b></li>
-        <li><b>PROJECT</b></li>
-        <li><b>CONTACT</b></li>
-       </ul>
-</nav>
-</div>
+    <header class="header">
+        <nav>
+            <h2 class="logo">Logo</h2>
+            <ul class="nav-list">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<section class="outer">
-     <div class="sub">
-        <div class="innerDiv">
-        <h1><span style="color: brown;">FRONTEND</span> DEVELOPER</h1>
-        <br>
-        <h2 class="text">ANJUMOL GEORGE</h2>
-        <br>
-        <h5>HTML,CSS,JAVASCRIPT,REACT,REDUX,TAILWIND,TYPESCRIPT,NEXTJS,BOOTSTRAP</h5>
-       </div>
-       <br><br><br>
-       <button class="button"><b>ABOUT ME</b></button>
-    </div>
+    <section id="home" class="hero-section">
+        <div class="content">
+            <h1><span>FRONTEND</span> DEVELOPER</h1>
+            <h2>Anjumol George</h2>
+            <p>HTML, CSS, JavaScript, React, Redux, Tailwind, TypeScript, Next.js, Bootstrap</p>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+        <div class="hero-images">
+            <img class="main-img" src="Anjusanju.jpg" alt="Anjumol George">
+        </div>
+    </section>
 
-    <div class="imgDiv">
-            <img class="first" src="Anjusanju.jpg" alt="">
-            <img class="second" src="Me.jpg" alt="">
-    </div>
-</section>
+    <section id="about" class="about-section">
+        <h2><span>About</span> Me</h2>
+        <div class="about-content">
+            <img src="Me.jpg" alt="Anjumol" class="about-img">
+            <p>As a Frontend Developer with expertise in modern web technologies like React, TypeScript, and Tailwind CSS, I specialize in crafting visually appealing and user-friendly interfaces. My focus is on building responsive, high-performance web applications that deliver seamless user experiences. I’m passionate about turning creative ideas into functional, attractive digital products.</p>
+        </div>
+    </section>
 
-<section class="Section"><br><br>
-    <h2 class="textcolor"><span style="color: brown;">ABOUT</span> Me</h2><br>
-    <div class="about">
-        <img class="first" src="Anjusanju.jpg" alt="">
-       <h3 class="abouttext">As a Frontend Developer with expertise in modern web technologies like React, <br>TypeScript, and Tailwind CSS,<br> I specialize in crafting visually appealing and<br> user-friendly interfaces. 
-        My focus is on building responsive,<br> high-performance web applications that deliver seamless user experiences.<br> With a solid foundation in design and development,
-        <br> I’m passionate about turning creative ideas into functional, <br>attractive digital products.</h3>
-    </div>
-      
-</section>
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <img src="https://t3.ftcdn.net/jpg/02/14/53/92/360_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.jpg" alt="Developer">
+                <h3>Developer</h3>
+            </div>
+            <div class="skill-item">
+                <img src="https://www.forbes.com/advisor/wp-content/uploads/2023/06/graphic-designer-desk.jpeg-1.jpg" alt="Graphic Design">
+                <h3>Graphic Design</h3>
+            </div>
+            <div class="skill-item">
+                <img src="https://i.pinimg.com/originals/0a/76/e2/0a76e2275e3f4872ea38dada19f48768.jpg" alt="Art">
+                <h3>Art</h3>
+            </div>
+        </div>
+    </section>
 
-<section class="Section">
-    <h2 class="textcolor">S<span style="color: brown;">k</span>ill</h2><br>
-    <div class="skill">
-        <div>
-     <img class="first" src="https://t3.ftcdn.net/jpg/02/14/53/92/360_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.jpg" alt="">
-     <h3 class="developer">DEVELOPER</h3>
-    </div>
-    <div>
-     <img class="imgsecond" src="https://www.forbes.com/advisor/wp-content/uploads/2023/06/graphic-designer-desk.jpeg-1.jpg" alt="">
-     <h3 style="margin-left: 37rem;">GRAPHIC DESIGN</h3>
-    </div>
-    <div>
-     <img class="imgthird" src="https://i.pinimg.com/originals/0a/76/e2/0a76e2275e3f4872ea38dada19f48768.jpg" alt="">
-     <h3 style="margin-left: 66rem;">ART</h3>
-    </div>
-    </div>
-</section>
+    <section id="projects" class="projects-section">
+        <h2>My <span>Projects</span></h2>
+        <div class="projects-grid">
+            <div class="project-item">
+                <img src="Ecommerce.png" alt="Ecommerce Project">
+                <h3>Ecommerce Platform</h3>
+            </div>
+            <div class="project-item">
+                <img src="project.png" alt="Project Management">
+                <h3>Project Management</h3>
+            </div>
+            <div class="project-item">
+                <img src="todolist.png" alt="To-do List App">
+                <h3>To-do List App</h3>
+            </div>
+        </div>
+    </section>
 
-<section style="display: flex; height:730px; background: black;">
-    <h1 class="text1"> MY <span style="color: brown;">PROJECTS</span></h1>
-    <div style="background: rgb(3, 39, 69); width: 35%; margin-top: 70px; margin-left: -52rem;">
-      <img class="first" src="Ecommerce.png" alt="">
-    </div>
-    <div style="background: rgb(3, 39, 69);width: 35%; margin-top: 70px;">
-       <img class="project" src="project.png" alt="">
-    </div>
-    <div style="background: rgb(3, 39, 69); width: 35%; margin-top: 70px;">
-  <img class="todo" src="todolist.png" alt="">
- </div>
-</section>
-
-
-     </div>
+    <footer class="footer">
+        <p>&copy; 2024 Anjumol George</p>
+    </footer>
 </body>
 </html>
